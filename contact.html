@@ -93,7 +93,8 @@
 						<h3>Contact Information</h3>
 						<ul>
 							<li class="address">616/B, NC 340, Deh Jorigi,<br>Behind Gulabi Kanta, National Highway,<br> Bin Qasim, Karachi, Pakistan</li>
-							<li class="phone"><a href="tel://+923332307675">+92 333 2307675</a></li>
+							<li class="phone"><a href="tel://+922132426362">+92 21 32426362</a></li>
+							<li class="phone"><a href="tel://+923063890030">+92 306 3890030</a></li>
 							<li class="email"><a href="mailto:info@ferropolymers.pk">info@ferropolymers.pk</a></li>
 						</ul>
 					</div>
@@ -101,40 +102,40 @@
 				</div>
 				<div class="col-md-6 animate-box">
 					<h3>Send A Message</h3>
-					<form action="mailto:info@ferropolymers.pk">
+					<form method="post" action="mail.php">
 						<div class="row form-group">
 							<div class="col-md-6">
-								<!-- <label for="fname">First Name</label> -->
-								<input type="text" id="fname" class="form-control" placeholder="Your firstname">
+								<label for="fname">First Name</label>
+								<input type="text" id="fname" name="fname" class="form-control" placeholder="Your firstname">
 							</div>
 							<div class="col-md-6">
-								<!-- <label for="lname">Last Name</label> -->
-								<input type="text" id="lname" class="form-control" placeholder="Your lastname">
+								<label for="lname">Last Name</label>
+								<input type="text" id="lname" name="lname" class="form-control" placeholder="Your lastname">
 							</div>
 						</div>
 
 						<div class="row form-group">
 							<div class="col-md-12">
-								<!-- <label for="email">Email</label> -->
-								<input type="text" id="email" class="form-control" placeholder="Your email address">
+								<label for="email">Email</label>
+								<input type="text" id="email" name="email" class="form-control" placeholder="Your email address">
 							</div>
 						</div>
 
 						<div class="row form-group">
 							<div class="col-md-12">
-								<!-- <label for="subject">Subject</label> -->
-								<input type="text" id="subject" class="form-control" placeholder="Your subject of this message">
+								<label for="subject">Subject</label>
+								<input type="text" id="subject" name="subject" class="form-control" placeholder="Your subject of this message">
 							</div>
 						</div>
 
 						<div class="row form-group">
 							<div class="col-md-12">
-								<!-- <label for="message">Message</label> -->
-								<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea>
+								<label for="message">Message</label>
+								<textarea name="message" id="message" name="message" cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea>
 							</div>
 						</div>
 						<div class="form-group">
-							<input type="submit" value="Send Message" class="btn btn-primary">
+							<input type="submit" id="submit" name="submit" value="Send Message" class="btn btn-primary">
 						</div>
 
 					</form>		
